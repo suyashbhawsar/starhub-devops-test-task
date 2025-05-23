@@ -175,6 +175,7 @@ make build          # Compile TypeScript via Bun
 make docker-build   # Build the Docker image for the API
 make up             # Start full stack (API, MongoDB, Elasticsearch, Filebeat, Kibana)
 make down           # Stop and remove containers
+make clean          # Remove build artifacts, dependencies, containers, and volumes
 make logs           # Tail logs for all services
 make dashboards     # Load Filebeat sample dashboards into Kibana
 ```
